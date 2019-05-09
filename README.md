@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-* [Game rules](#game rules)
+* [Game description](#Game description)
 * [Technical](#Technical)
 
 ## Instructions
