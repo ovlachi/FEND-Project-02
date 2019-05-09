@@ -42,7 +42,7 @@ Application uses CSS to style components for the game. A bounce effect was inclu
 #### Usability: 
 All application components are usable across modern desktop, tablet, and phone browsers.
 
-## Docomentation
+## Documentation
 
 
 #### README:
