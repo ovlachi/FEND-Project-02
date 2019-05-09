@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is my second project of Udacity's Front-End Nanodegree program. Memory Game is a complete browser-based card matching game (also known as Concentration) that I have built using HTML, CSS and JavaScript and manipulating the DOM.
+This is my second project of Udacity's Front-End Nanodegree program. The Memory Game is a complete browser-based card matching game (also known as Concentration) that I have built using HTML, CSS and JavaScript and manipulating the DOM.
 
 
 ## The Game
