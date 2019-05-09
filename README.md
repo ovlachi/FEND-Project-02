@@ -3,7 +3,7 @@
 ## Introduction
 
 This is my second project of Udacity's Front-End Nanodegree program. The Memory Game is a complete browser-based card matching game (also known as Concentration) that I have built using HTML, CSS and JavaScript and manipulating the DOM.
-This is the link of the live game:
+#### This is the link of the live game:
 [Memory Game](https://ovlachi.github.io/FEND-Project-02/)
 
 
