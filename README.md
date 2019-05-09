@@ -30,6 +30,24 @@ Game displays the current number of moves a user has made.
 
 Congratulations Popup: When a user wins the game, a modal appears to congratulate the player and ask if they want to play again or cancel the modal window. It should also tell the user how much time it took to win the game, how many moves and what the star rating was. The Play again button resets the game and closes the modal window.
 
+## Design
+
+Styling: Application uses CSS to style components for the game.
+
+Usability: All application components are usable across modern desktop, tablet, and phone browsers.
+
+## Docomentation
+
+Documentation
+README
+A README file is included detailing the game and all dependencies.
+
+Comments
+Comments are present and effectively explain longer code procedure when necessary.
+
+Code Quality
+Code is formatted with consistent, logical, and easy-to-read formatting as described in the Udacity JavaScript Style Guide.
+
 ## Contributing
 
 This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
