@@ -9,23 +9,43 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-
+        <div class="modal hide">
+            <div class="modal__body">
+                <h2 class="modal__title">Congratulations, You won!!!</h2>
+                <div class="modal__heading">
+                    <h3 class="modal__results">Your results:</h3>
+                </div><hr>
+                <div class="modal__stats">
+                    <h4 class="modal__time">Time =</h4>
+                    <h4 class="modal__stars">Stars =</h4>
+                    <h4 class="modal__moves">Moves =</h4>
+                </div>
+                <div class="modal__buttons">
+                        <button class="modal__button modal__replay">Play again</button>
+                        <button class="modal__button modal__close">Close</button>
+                </div>
+            </div>
+        </div>
     <div class="container">
         <header>
-            <h1>Matching Game - by George Ovlachi</h1>
+            <h1 class="heading">Matching Game</h1>
+            <p class="objective">MATCH ALL 16 CARDS TO WIN THE GAME!</p>
+
         </header>
 
         <section class="score-panel">
+            <span class="clock">0:00</span> 
+
         	<ul class="stars">
         		<li><i class="fa fa-star"></i></li>
         		<li><i class="fa fa-star"></i></li>
         		<li><i class="fa fa-star"></i></li>
         	</ul>
 
-        	<span class="moves">3</span> Moves
+        	<span class="moves">0</span> Moves
 
             <div class="restart">
-        		<i class="fa fa-repeat"></i>
+        		<i class="fa fa-repeat" title="restart"></i>
         	</div>
         </section>
 
@@ -36,7 +56,7 @@
             <li class="card">
                 <i class="fa fa-paper-plane-o"></i>
             </li>
-            <li class="card match">
+            <li class="card">
                 <i class="fa fa-anchor"></i>
             </li>
             <li class="card">
@@ -45,7 +65,7 @@
             <li class="card">
                 <i class="fa fa-cube"></i>
             </li>
-            <li class="card match">
+            <li class="card">
                 <i class="fa fa-anchor"></i>
             </li>
             <li class="card">
@@ -66,7 +86,7 @@
             <li class="card">
                 <i class="fa fa-bomb"></i>
             </li>
-            <li class="card open show">
+            <li class="card">
                 <i class="fa fa-bolt"></i>
             </li>
             <li class="card">
