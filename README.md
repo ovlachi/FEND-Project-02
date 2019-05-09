@@ -16,12 +16,14 @@ The game ends once all cards have been correctly matched.
 
 ## Technical
 
-Memory Game Logic:
+#### Memory Game Logic:
 The game randomly shuffles the cards. A user wins once all cards have successfully been coorectly matched.
 
-Restart Button: A restart button allows the player to reset the game board, the timer, and the star rating.
+#### Restart Button: 
+A restart button allows the player to reset the game board, the timer, and the star rating.
 
-Star Rating: The game displays a star rating (from 1 to at least 3) that reflects the player's performance. At the beginning of a game, displays  3 stars. After 12 moves, it change to two stars and after 24 moves changes down to one star.
+#### Star Rating: 
+The game displays a star rating (from 1 to at least 3) that reflects the player's performance. At the beginning of a game, displays  3 stars. After 12 moves, it change to two stars and after 24 moves changes down to one star.
 
 Timer: When the player starts a game, a displayed timer starts. Once the player wins the game, the timer stops.
 
