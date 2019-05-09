@@ -3,9 +3,12 @@
 ## Introduction
 
 This is my second project of Udacity's Front-End Nanodegree program. The Memory Game is a complete browser-based card matching game (also known as Concentration) that I have built using HTML, CSS and JavaScript and manipulating the DOM.
+This is the link of the live game:
+[Memory Game](https://ovlachi.github.io/FEND-Project-02/)
 
 
 ## The Game
+
 
 The game board is made up of 16 cards appearing as a grid. Each of the cards will feature one of eight different symbols and cards are meant to be matched according to the symbols. The game begins with all cards presented symbol-side face down.
 The player flips two cards over to reveal their underlying symbols. No more than two cards can be turned over at a time.
