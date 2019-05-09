@@ -25,12 +25,14 @@ A restart button allows the player to reset the game board, the timer, and the s
 #### Star Rating: 
 The game displays a star rating (from 1 to at least 3) that reflects the player's performance. At the beginning of a game, displays  3 stars. After 12 moves, it change to two stars and after 24 moves changes down to one star.
 
-Timer: When the player starts a game, a displayed timer starts. Once the player wins the game, the timer stops.
+#### Timer: 
+When the player starts a game, a displayed timer starts. Once the player wins the game, the timer stops.
 
-Move Counter: 
+#### Move Counter: 
 Game displays the current number of moves a user has made.
 
-Congratulations Popup: When a user wins the game, a modal appears to congratulate the player and ask if they want to play again or cancel the modal window. It should also tell the user how much time it took to win the game, how many moves and what the star rating was. The Play again button resets the game and closes the modal window.
+#### Congratulations Popup: 
+When a user wins the game, a modal appears to congratulate the player and ask if they want to play again or cancel the modal window. It should also tell the user how much time it took to win the game, how many moves and what the star rating was. The Play again button resets the game and closes the modal window.
 
 ## Design
 
@@ -40,14 +42,14 @@ Usability: All application components are usable across modern desktop, tablet, 
 
 ## Docomentation
 
-Documentation
-README
+
+#### README:
 A README file is included detailing the game and all dependencies.
 
-Comments
+#### Comments:
 Comments are present and effectively explain longer code procedure when necessary.
 
-Code Quality
+#### Code Quality:
 Code is formatted with consistent, logical, and easy-to-read formatting as described in the [Udacity JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html).
 
 ## Contributing
