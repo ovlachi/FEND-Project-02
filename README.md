@@ -2,8 +2,9 @@
 
 ## Table of Contents
 
-* [Game description](#Game description)
 * [Technical](#Technical)
+* [Technical](#Technical)
+
 
 ## Instructions
 
