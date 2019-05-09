@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-* [Technical](#Technical)
+* [Game](#Game)
 * [Technical](#Technical)
 
 
