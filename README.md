@@ -36,9 +36,11 @@ When a user wins the game, a modal appears to congratulate the player and ask if
 
 ## Design
 
-Styling: Application uses CSS to style components for the game.
+#### Styling: 
+Application uses CSS to style components for the game. A bounce effect was included when two cards are successfully matched (CSS animation)
 
-Usability: All application components are usable across modern desktop, tablet, and phone browsers.
+#### Usability: 
+All application components are usable across modern desktop, tablet, and phone browsers.
 
 ## Docomentation
 
