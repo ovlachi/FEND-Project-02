@@ -46,7 +46,7 @@ Comments
 Comments are present and effectively explain longer code procedure when necessary.
 
 Code Quality
-Code is formatted with consistent, logical, and easy-to-read formatting as described in the Udacity JavaScript Style Guide.
+Code is formatted with consistent, logical, and easy-to-read formatting as described in the [Udacity JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html).
 
 ## Contributing
 
