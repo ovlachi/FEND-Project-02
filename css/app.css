@@ -47,10 +47,8 @@ h1 {
  */
 
 .deck {
-    width:40%;
-    height: 100%;
-    min-height: 680px;
-    max-width: 660px;
+    width: 660px;
+    height: 680px;
     background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
     padding: 32px;
     border-radius: 10px;
@@ -103,7 +101,7 @@ h1 {
  */
 
 .score-panel {
-    width:40%;
+    width:600px;
     height: 100%;
     max-width: 660px;
     text-align: left;
@@ -229,17 +227,113 @@ h4 {
 /*
  * Media queries to make the game responsive
  */
- /*@media screen and (max-width: 840px) {
-    .container {
-        width: 90%;
-    }
 
+ @media screen and (max-width: 720px) {
     .deck {
-        width:60%;
+        max-width: 80%;
+        height: 100%;
+        padding: 15px;
     }
 
     .card {
-        width: 90px;
-        height: 90px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .score-panel {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 591px) {
+    .deck {
+        max-width: 85%;
+        max-height: 80%;
+        padding: 10px;
+    }
+
+    .card {
+        width: 87px;
+        height: 100px;
+    }
+
+    .score-panel {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .deck {
+        max-width: 90%;
+        max-height: 80%;
+        padding: 15px;
+    }
+
+    .card {
+        width: 70px;
+        height: 95px;
+    }
+
+    .score-panel {
+        width: 80%;
+    }
+
+    .objective {
+        display: none;
+    }
+    
+    .heading {
+        margin: 35px 0;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    .deck {
+        max-width: 85%;
+        max-height: 85%;
+        padding: 5px;
+    }
+
+    .card {
+        width: 55px;
+        height: 70px;
+    }
+
+    .score-panel {
+        width: 70%;
+    }
+
+    .objective {
+        display: none;
+    }
+
+    .heading {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .deck {
+        max-width: 90%;
+        max-height: 95%;
+        padding: 5px;
+    }
+
+    .card {
+        width: 45px;
+        height: 85px;
+    }
+
+    .score-panel {
+        width: 85%;
+    }
+
+    .objective {
+        display: none;
+    }
+
+    .heading {
+        margin-bottom: 15px;
     }
 }

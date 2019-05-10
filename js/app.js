@@ -44,7 +44,6 @@ function getStars() {
         if (star.style.display !== "none") {
             starCount++
         }       
-        //console.log(starCount)
     }
     return starCount 
 }
@@ -123,7 +122,6 @@ function flippCards (clickCard) {
 function addOpenCards () {
     const clickCard = event.target
     openCards.push(clickCard)
-    //console.log("openCards")
 }
 
 /*Function to check if the two cards are matching*/
@@ -139,13 +137,21 @@ function checkMatching (clickCard) {
 			win();
 		}, 700)
          } else {
-            setTimeout (() => {
-                flippCards(openCards[0])
-                flippCards(openCards[1])
-                openCards = []
-            }, 800)
+            missMatch() //refactored this section adding a separate function for hiding the unmatched cards
         }
 }
+
+/*Function for hiding the unmatched cards */
+function missMatch() {
+    setTimeout(function () {
+        for (card of openCards) {
+            card.classList.toggle('open');
+            card.classList.toggle('show');
+        }
+        openCards = [];
+    }, 1000);
+}
+
 
 /* Function to handle the “moves” counter */
 function addMoves() {
@@ -177,7 +183,6 @@ function startTimer() {
       timeCounter = setInterval(function(){
       time++
       displayTimer()
-      console.log(time)
     }, 1000);
 }
 
@@ -191,7 +196,6 @@ function displayTimer() {
     const minutes = Math.floor(time / 60)
     const seconds = time % 60
     const clock = document.querySelector(".clock")
-    console.log(clock)
     clock.innerHTML = time
     if (seconds < 10) {
         clock.innerHTML = `${minutes}:0${seconds}`;
@@ -215,6 +219,8 @@ function resetGame () {
     resetStars()
     resetCards()
     shuffleTheDeck()
+    matched = 0
+    openCards = []
 }
 
 /*Function to reset the Timer and Clock- add to resetGame*/
